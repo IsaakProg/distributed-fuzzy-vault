@@ -1,5 +1,5 @@
 """
-    Generates polynomial from secret string with use of CRC encoding
+    (NAO ENTENDI)Generates polynomial from secret string with use of CRC encoding
 """
 
 from bitstring import BitArray

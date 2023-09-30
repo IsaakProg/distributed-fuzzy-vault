@@ -1,7 +1,7 @@
 """
-    Converter for Minutia
-    - to bitstring and vice-versa
-    - from bitstring to int and vice-versa
+    Converte as Minutias 
+    - para bitstring e vice-versa
+    - de bitstring to int e vice-versa ISSO E FEITO PRA AJUDAR NA INTEROPERABILIDADE
 """
 
 from bitstring import BitArray

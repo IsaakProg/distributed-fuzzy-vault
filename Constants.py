@@ -1,4 +1,7 @@
-""" All changeable constants for fuzzy vault """
+""" Aqui estao todos os parametros que devem ser mudados para o fuzzy vault, isso define as constantes que são 
+usadas em todo o projeto. 
+Essas constantes controlam vários aspectos do sistema, desde a execução do banco de dados até os parâmetros do Vault Verifier,
+ configurações de registro e nomes de arquivos de entrada e saída. (MUITO COMPLEXO) """
 
 import datetime
 

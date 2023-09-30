@@ -1,5 +1,11 @@
 """
-    Plots minutiae
+    "Plotar"  e o  ato de criar um gráfico ou uma representação visual de dados em um plano bidimensional.
+     No contexto das minutias, "plotar" significa criar uma representação visual das coordenadas (x, y) das minutias 
+     em um gráfico, onde cada minutia é representada como um ponto no espaço. 
+     A seta que sai do ponto central de cada minutia na direção do ângulo de orientação é usada para indicar a
+     direção da minutia
+
+     Essa classe MinutiaePlotter é útil para visualizar e analisar as minutias em uma imagem de impressão digital
 """
 
 import matplotlib.pyplot as plt

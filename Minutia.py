@@ -1,8 +1,12 @@
 """
-    Minutia classes according to output of different algorithms
+Este código define três classes para representar Minutias em diferentes formatos e com diferentes limites.
+ Minutia é a classe base genérica, MinutiaNBIS é específica para o formato NBIS, 
+ e MinutiaNBIS_GH é específica para Geometric Hashing, com transformações de coordenadas específicas.
+   Cada classe possui atributos para coordenadas X, Y, Theta e, no caso de MinutiaNBIS, qualidade da Minutia.
+ As classes também têm métodos para verificar se uma Minutia é zero e calcular a distância EUCLIDIANA entre Minutias.
 
-    Current supported minutiae detection algorithms:
-    - NBIS MINDTCT
+ As "Minutias" são pontos característicos ou pontos de interesse que são extraídos de uma imagem de impressão digital
+   durante o processo de análise e processamento (COMO OS LANDMARKS EM BIOMETRIA FACIAL). 
 """
 
 import math

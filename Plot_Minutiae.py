@@ -1,4 +1,20 @@
+'''Esse código faz o seguinte:
 
+1Importa várias classes e módulos necessários para o processamento de minutias.
+
+2Define os nomes dos arquivos de imagem de galeria e sonda.
+
+3Define uma função plot_minutiae que extrai minutias das imagens de sonda e galeria,
+ as converte para o formato GH (Geometric Hashing) se a opção GH estiver ativada e as plota em um gráfico.
+ 
+4Cria instâncias de classes como MinutiaeExtractor e MinutiaePlotter para extrair minutias e plotá-las.
+
+5Se a opção GH estiver ativada, define minutias de base para sonda e galeria, transforma as minutias extraídas 
+para essas bases e plota as minutias transformadas em cores diferentes.
+
+6Exibe o gráfico resultante das minutias.
+
+7Chama a função plot_minutiae com a opção GH desativada quando o script é executado.'''
 from Plotter import MinutiaePlotter
 from Minutiae_Extractor import MinutiaeExtractor
 from Minutia import MinutiaNBIS_GH

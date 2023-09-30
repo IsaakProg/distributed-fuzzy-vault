@@ -1,6 +1,7 @@
 """
-    Script to create log summary of all .csv log files in folder db_testing
-"""
+    Este código é um script que cria resumos de arquivos de log em formato CSV
+    Os arquivos de log são gerados pelo Vault Verifier e contêm informações sobre o desempenho do sistema
+      """
 
 import os
 import csv

@@ -1,3 +1,5 @@
+'''BIBLIOTECA QUE PERMITE USAR SENSORES DE IMPRESSAO DIGITAL EM UM RASPBERRY PI'''
+
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 

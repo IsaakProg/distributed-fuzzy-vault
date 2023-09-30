@@ -1,4 +1,4 @@
-""" Strings for application and fuzzy vault modules """
+""" Strings para interface de usuario """
 
 # Application strings
 APP_WELCOME = "Welcome to the fuzzy vault fingerprint recognition application!"
