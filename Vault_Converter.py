@@ -1,5 +1,4 @@
-""" Vault Converter that serializes (vault to JSON) and deserializes (JSON to vault) """
-
+""" Vault Converter serializa (vault para JSON) e deserializa (JSON para vault) """
 
 from Vault import Vault, VaultElement
 import Constants
